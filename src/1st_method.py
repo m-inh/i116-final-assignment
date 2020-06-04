@@ -155,10 +155,12 @@ def conduct_experiments(n, k):
 
   # search
   result_se = []
+  comb      = Combination(n, k)
 
   for i in range(nck):
     start_se = time.time()
-    search_a_combination(n, k, i)
+    # search_a_combination(n, k, i)
+    comb = comb.next()
     end_se   = time.time()
     total_se = end_se - start_se
     result_se.append(total_se)

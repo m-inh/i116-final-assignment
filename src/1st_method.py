@@ -186,8 +186,8 @@ def conduct_experiments(n, k):
   - search_a_combination
 """
 
-# nks = [(36, 8), (45, 9), (55, 10), (66, 11), (78, 12)]
-nks = [(10, 3), (20, 5)]
+nks = [(36, 8), (45, 9), (55, 10), (66, 11), (78, 12)]
+#nks = [(10, 3), (20, 5)]
 
 for nk in nks:
   conduct_experiments(nk[0], nk[1])

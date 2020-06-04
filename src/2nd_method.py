@@ -143,23 +143,23 @@ def conduct_experiments(n, k, num_cores):
   print("total time:   ", total_gen)
 
   # search
-  result_se = []
+  # result_se = []
   
-  for i in range(nck):
-    start_se = time.time()
-    search_a_combination(n, k, i)
-    end_se   = time.time()
+  # for i in range(nck):
+  #   start_se = time.time()
+  #   search_a_combination(n, k, i)
+  #   end_se   = time.time()
     
-    total_se = end_se - start_se
-    result_se.append(total_se)
+  #   total_se = end_se - start_se
+  #   result_se.append(total_se)
 
-  print("--------------------------")
-  print("1st_method: search")
-  print("n:            ", n)
-  print("k:            ", k)
-  print("combinations: ", nck)
-  print("num_cores:    ", num_cores)
-  print("average time: ", sum(result_se) / len(result_se))
+  # print("--------------------------")
+  # print("1st_method: search")
+  # print("n:            ", n)
+  # print("k:            ", k)
+  # print("combinations: ", nck)
+  # print("num_cores:    ", num_cores)
+  # print("average time: ", sum(result_se) / len(result_se))
 
 
 
@@ -170,9 +170,9 @@ def conduct_experiments(n, k, num_cores):
   - search_a_combination
 """
 
-#nks   = [(36, 8), (45, 9), (55, 10), (66, 11), (78, 12)]
-nks = [(10, 3), (20, 5)]
-cores = [4, 8, 16]
+nks   = [(36, 8), (45, 9), (55, 10), (66, 11), (78, 12)]
+# nks = [(10, 3), (20, 5)]
+cores = [8, 16]
 
 for nk in nks:
   for core in cores:

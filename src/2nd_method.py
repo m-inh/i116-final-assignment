@@ -139,6 +139,7 @@ def conduct_experiments(n, k, num_cores):
   print("n:            ", n)
   print("k:            ", k)
   print("combinations: ", nck)
+  print("num_cores:    ", num_cores)
   print("total time:   ", total_gen)
 
   # search
@@ -157,6 +158,7 @@ def conduct_experiments(n, k, num_cores):
   print("n:            ", n)
   print("k:            ", k)
   print("combinations: ", nck)
+  print("num_cores:    ", num_cores)
   print("average time: ", sum(result_se) / len(result_se))
 
 

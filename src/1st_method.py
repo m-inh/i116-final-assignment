@@ -162,7 +162,7 @@ def conduct_experiments(n, k):
     # search_a_combination(n, k, i)
     comb = comb.next()
     end_se   = time.time()
-    total_se = end_se - start_se
+    total_se = (end_se - start_se) + sum(result_se)
     result_se.append(total_se)
 
   print("--------------------------")

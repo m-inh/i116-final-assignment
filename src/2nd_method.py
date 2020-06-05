@@ -10,6 +10,11 @@ import multiprocessing
 from joblib import Parallel, delayed
 import time
 
+cache_fact = []
+
+for i in range(1000):
+  cache_fact.append(-1)
+
 def fact(n):
   """Calculate the factorial of a given number n
 
@@ -24,10 +29,15 @@ def fact(n):
   if n == 0:
     return 1
 
+  if (cache_fact[n] != -1):
+    return cache_fact[n]
+
   f = 1
 
   for i in range(1, n+1):
     f = f * i
+
+  cache_fact[n] = f
 
   return f
 
@@ -45,10 +55,21 @@ def calculate_nck(n, k):
   -------
   number_of_combinations: Int
   """
+  if (n < k):
+    return 0
+  
   if n == 0: 
     return 0
 
-  return int(fact(n) / (fact(k) * fact(n-k)))
+  numerator = 1
+
+  for i in range(n-k+1, n+1):
+    numerator = numerator*i
+
+  denominator = fact(k)
+
+  # return int(fact(n) / (fact(k) * fact(n-k)))
+  return int(numerator / denominator)
 
 
 
@@ -116,7 +137,7 @@ def generate_combinations(n, k, num_cores):
   inputs = range(nck)
 
   # Generate all combinations in Parallel
-  Parallel(n_jobs=num_cores)(delayed(generate_combination)(n, k, i) for i in inputs)
+  Parallel(n_jobs=num_cores, prefer="threads")(delayed(generate_combination)(n, k, i) for i in inputs)
 
 
 

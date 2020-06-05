@@ -10,10 +10,13 @@ import multiprocessing
 from joblib import Parallel, delayed
 import time
 
+
 cache_fact = []
 
+# Initialize cache_fact
 for i in range(1000):
   cache_fact.append(-1)
+
 
 def fact(n):
   """Calculate the factorial of a given number n
@@ -106,7 +109,7 @@ def generate_combination(n, k, index):
   -------
   combination: list(Int)
   """
-  combination = []
+  combination = list(range(k))
 
   nck = calculate_nck(n, k)
 
@@ -126,7 +129,7 @@ def generate_combination(n, k, index):
       take = calculate_nck(guess, ri)
     
     m = m-take
-    combination.append(n-guess)
+    combination[i] = n-guess
 
   return combination
 

@@ -12,11 +12,11 @@ import time
 import math
 import os
 
-# cache_fact = []
+cache_fact = []
 
 # Initialize cache_fact
-# for i in range(1000):
-#   cache_fact.append(-1)
+for i in range(1000):
+  cache_fact.append(-1)
 
 
 def fact(n):
@@ -33,15 +33,15 @@ def fact(n):
   if n == 0:
     return 1
 
-  # if (cache_fact[n] != -1):
-  #   return cache_fact[n]
+  if (cache_fact[n] != -1):
+    return cache_fact[n]
 
   f = 1
 
   for i in range(1, n+1):
     f = f * i
 
-  # cache_fact[n] = f
+  cache_fact[n] = f
 
   return f
 
@@ -73,6 +73,7 @@ def calculate_nck(n, k):
   denominator = fact(k)
 
   return int(numerator / denominator)
+  # return int(fact(n) / (fact(k) * fact(n-k)))
 
 
 
@@ -134,12 +135,6 @@ def generate_combination(n, k, index):
   return combination
 
 
-def test_print():
-  id = os.getpid()
-
-  for i in range(100):
-    print('test_print', i, id)
-
 
 def generate_combinations_by_inteval(start_i, end_i, n, k):
   start = time.time()
@@ -169,15 +164,6 @@ def generate_combinations(n, k, cores):
   inteval.append((last_inteval[0], last_inteval[1] + (jobs%cores)))
 
   # Generate all combinations in Parallel
-  # Parallel(n_jobs=cores, 
-  # # prefer="threads", 
-  # # require='sharedmem'
-  # )(delayed(generate_combinations_by_inteval)(i[0], i[1], n, k) for i in inteval)
-  
-  # for i in inteval:
-  #   rs = pool.apply_async(generate_combinations_by_inteval, [i[0], i[1], n, k])
-  #   chunk_combinations = rs.get()
-    # print("chunk_combinations", chunk_combinations)
   pool = Pool(processes=cores)
   multiple_results = [pool.apply_async(generate_combinations_by_inteval, (i[0], i[1], n, k)) for i in inteval]
   print([res.get() for res in multiple_results])
@@ -238,7 +224,9 @@ def conduct_experiments(n, k, num_cores):
 """
 
 # nks   = [(36, 8), (45, 9), (55, 10), (66, 11), (78, 12)]
-nks = [(20,8),(21,8),(22,8),(23,8),(24,8),(25,8),(26,8),(27,8),(28,8),(29,8),(30,8),(31,8),(32,8),(33,8),(34,8),(35,8),(36,8)]
+nks = [(20, 8), (21, 8), (22, 8), (23, 8), (24, 8), (25, 8), (26, 8), (27, 8),
+       (28, 8), (29, 8), (30, 8), (31, 8), (32, 8), (33, 8), (34, 8), (35, 8),
+       (36, 8)]
 # cores = [8, 16, 32]
 
 # nks = [(5,3)]

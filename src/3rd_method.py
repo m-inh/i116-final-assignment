@@ -6,6 +6,7 @@ Student ID  : s1810445
 Student mail: minh.nguyen@jaist.ac.jp
 """
 
+import multiprocessing
 from multiprocessing import Pool
 import time
 import math
@@ -151,8 +152,6 @@ def generate_combinations_by_inteval(start_i, end_i, n, k):
 
   print("time per core: ", end - start, "start_i: ", start_i, "end_i: ", end_i, "jobs: ", end_i - start_i)
 
-pool = Pool(processes=4)
-
 def generate_combinations(n, k, cores):
   nck  = calculate_nck(n, k)
   jobs = nck
@@ -179,6 +178,7 @@ def generate_combinations(n, k, cores):
   #   rs = pool.apply_async(generate_combinations_by_inteval, [i[0], i[1], n, k])
   #   chunk_combinations = rs.get()
     # print("chunk_combinations", chunk_combinations)
+  pool = Pool(processes=cores)
   multiple_results = [pool.apply_async(generate_combinations_by_inteval, (i[0], i[1], n, k)) for i in inteval]
   print([res.get() for res in multiple_results])
   # multiple_results = [pool.apply_async(test_print, []) for i in range(4)]
@@ -244,9 +244,13 @@ nks = [(20,8),(21,8),(22,8),(23,8),(24,8),(25,8),(26,8),(27,8),(28,8),(29,8),(30
 # nks = [(5,3)]
 cores = [1, 2, 4, 8]
 
+max_cores = multiprocessing.cpu_count()
+
 for nk in nks:
   for core in cores:
-    conduct_experiments(nk[0], nk[1], core)
+    
+    if core <= max_cores:
+      conduct_experiments(nk[0], nk[1], core)
 
 print("------------------------------")
 print("DONE!")

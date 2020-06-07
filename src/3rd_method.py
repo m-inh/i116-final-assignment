@@ -6,11 +6,10 @@ Student ID  : s1810445
 Student mail: minh.nguyen@jaist.ac.jp
 """
 
-import multiprocessing
-from joblib import Parallel, delayed
+from multiprocessing import Pool
 import time
 import math
-
+import os
 
 # cache_fact = []
 
@@ -134,6 +133,13 @@ def generate_combination(n, k, index):
   return combination
 
 
+def test_print():
+  id = os.getpid()
+
+  for i in range(100):
+    print('test_print', i, id)
+
+
 def generate_combinations_by_inteval(start_i, end_i, n, k):
   start = time.time()
   
@@ -145,6 +151,7 @@ def generate_combinations_by_inteval(start_i, end_i, n, k):
 
   print("time per core: ", end - start, "start_i: ", start_i, "end_i: ", end_i, "jobs: ", end_i - start_i)
 
+pool = Pool(processes=4)
 
 def generate_combinations(n, k, cores):
   nck  = calculate_nck(n, k)
@@ -163,10 +170,19 @@ def generate_combinations(n, k, cores):
   inteval.append((last_inteval[0], last_inteval[1] + (jobs%cores)))
 
   # Generate all combinations in Parallel
-  Parallel(n_jobs=cores, 
-  # prefer="threads", 
-  # require='sharedmem'
-  )(delayed(generate_combinations_by_inteval)(i[0], i[1], n, k) for i in inteval)
+  # Parallel(n_jobs=cores, 
+  # # prefer="threads", 
+  # # require='sharedmem'
+  # )(delayed(generate_combinations_by_inteval)(i[0], i[1], n, k) for i in inteval)
+  
+  # for i in inteval:
+  #   rs = pool.apply_async(generate_combinations_by_inteval, [i[0], i[1], n, k])
+  #   chunk_combinations = rs.get()
+    # print("chunk_combinations", chunk_combinations)
+  multiple_results = [pool.apply_async(generate_combinations_by_inteval, (i[0], i[1], n, k)) for i in inteval]
+  print([res.get() for res in multiple_results])
+  # multiple_results = [pool.apply_async(test_print, []) for i in range(4)]
+  # print([res.get(timeout=1) for res in multiple_results])
 
 
 
@@ -191,6 +207,7 @@ def conduct_experiments(n, k, num_cores):
   print("combinations: ", nck)
   print("num_cores:    ", num_cores)
   print("total time:   ", total_gen)
+  print("--------------------------")
 
   # search
   # result_se = []

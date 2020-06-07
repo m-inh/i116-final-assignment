@@ -7,16 +7,16 @@ Student mail: minh.nguyen@jaist.ac.jp
 """
 
 import multiprocessing
-from joblib import Parallel, delayed
+from multiprocessing import Pool
 import time
 import math
+import os
 
-
-# cache_fact = []
+cache_fact = []
 
 # Initialize cache_fact
-# for i in range(1000):
-#   cache_fact.append(-1)
+for i in range(1000):
+  cache_fact.append(-1)
 
 
 def fact(n):
@@ -33,15 +33,15 @@ def fact(n):
   if n == 0:
     return 1
 
-  # if (cache_fact[n] != -1):
-  #   return cache_fact[n]
+  if (cache_fact[n] != -1):
+    return cache_fact[n]
 
   f = 1
 
   for i in range(1, n+1):
     f = f * i
 
-  # cache_fact[n] = f
+  cache_fact[n] = f
 
   return f
 
@@ -73,6 +73,7 @@ def calculate_nck(n, k):
   denominator = fact(k)
 
   return int(numerator / denominator)
+  # return int(fact(n) / (fact(k) * fact(n-k)))
 
 
 
@@ -134,16 +135,19 @@ def generate_combination(n, k, index):
   return combination
 
 
+
 def generate_combinations_by_inteval(start_i, end_i, n, k):
   start = time.time()
   
   for i in range(start_i, end_i):
-    comb = generate_combination(n, k, i)
+    generate_combination(n, k, i)
+    # comb = generate_combination(n, k, i)
     # print(comb)
   
   end = time.time()
-
   print("time per core: ", end - start, "start_i: ", start_i, "end_i: ", end_i, "jobs: ", end_i - start_i)
+  return (end - start, start_i, end_i, end_i - start_i)
+
 
 
 def generate_combinations(n, k, cores):
@@ -163,10 +167,10 @@ def generate_combinations(n, k, cores):
   inteval.append((last_inteval[0], last_inteval[1] + (jobs%cores)))
 
   # Generate all combinations in Parallel
-  Parallel(n_jobs=cores, 
-  # prefer="threads", 
-  # require='sharedmem'
-  )(delayed(generate_combinations_by_inteval)(i[0], i[1], n, k) for i in inteval)
+  pool = Pool(processes=cores)
+  multiple_results = [pool.apply_async(generate_combinations_by_inteval, (i[0], i[1], n, k)) for i in inteval]
+  
+  return [res.get() for res in multiple_results]
 
 
 
@@ -178,19 +182,22 @@ def search_a_combination(n, k, index):
 def conduct_experiments(n, k, num_cores):
   nck = calculate_nck(n, k)
 
-  # generate
+  # experiment generate-function
   start_gen = time.time()
   generate_combinations(n, k, num_cores)
   end_gen   = time.time()
   total_gen = end_gen - start_gen
 
   print("--------------------------")
-  print("1st_method: generate")
+  print("2nd_method: generate")
   print("n:            ", n)
   print("k:            ", k)
   print("combinations: ", nck)
   print("num_cores:    ", num_cores)
   print("total time:   ", total_gen)
+  print("--------------------------")
+
+  return total_gen
 
   # search
   # result_se = []
@@ -216,20 +223,40 @@ def conduct_experiments(n, k, num_cores):
 """This section is for experiment
 
   The functions are tested:
+  - conduct_experiments
   - generate_combinations
-  - search_a_combination
 """
 
+# For experiment
 # nks   = [(36, 8), (45, 9), (55, 10), (66, 11), (78, 12)]
-nks = [(20,8),(21,8),(22,8),(23,8),(24,8),(25,8),(26,8),(27,8),(28,8),(29,8),(30,8),(31,8),(32,8),(33,8),(34,8),(35,8),(36,8)]
-# cores = [8, 16, 32]
+# nks = [(28, 8), (29, 8), (30, 8), (31, 8), (32, 8), (33, 8), (34, 8), (35, 8), (36, 8), (37, 8), (38, 8), (39, 8), (40, 8), (41, 8), (42, 8), (43, 8), (44, 8), (45, 8)]
+# cores = [8, 16, 30]
 
-# nks = [(5,3)]
+
+# For test only
+nks = [(5,3), (6,3), (7,3)]
 cores = [1, 2, 4, 8]
+
+max_cores = multiprocessing.cpu_count()
+
+results = []
 
 for nk in nks:
   for core in cores:
-    conduct_experiments(nk[0], nk[1], core)
+    if core <= max_cores:
+      total_time = conduct_experiments(nk[0], nk[1], core)
+      results.append([nk[0], nk[1], calculate_nck(nk[0], nk[1]), core, total_time])
+
+# Print csv
+headers = ["n", "k", "combinations", "cores", "total_time"]
+print(",".join(headers))
+
+for r in results:
+  rs = []
+  # Stringify
+  for i in r:
+    rs.append(str(i))
+  print(",".join(rs))
 
 print("------------------------------")
 print("DONE!")

@@ -1,0 +1,718 @@
+---------------------
+All tests are passed!
+time per core:  0.5653574466705322 start_i:  62984 end_i:  78730 jobs:  15746
+time per core:  0.5710690021514893 start_i:  78730 end_i:  94476 jobs:  15746
+time per core:  0.574537992477417 start_i:  31492 end_i:  47238 jobs:  15746
+time per core:  0.593541145324707 start_i:  0 end_i:  15746 jobs:  15746
+time per core:  0.5961339473724365 start_i:  110222 end_i:  125970 jobs:  15748
+time per core:  0.607064962387085 start_i:  94476 end_i:  110222 jobs:  15746
+time per core:  0.6235733032226562 start_i:  47238 end_i:  62984 jobs:  15746
+time per core:  0.6367456912994385 start_i:  15746 end_i:  31492 jobs:  15746
+--------------------------
+1st_method: generate
+n:             20
+k:             8
+combinations:  125970
+num_cores:     8
+total time:    0.6549742221832275
+--------------------------
+
+time per core:  0.28226304054260254 start_i:  94476 end_i:  102349 jobs:  7873
+time per core:  0.2828054428100586 start_i:  86603 end_i:  94476 jobs:  7873
+time per core:  0.28313326835632324 start_i:  62984 end_i:  70857 jobs:  7873
+time per core:  0.28385400772094727 start_i:  55111 end_i:  62984 jobs:  7873
+time per core:  0.2895538806915283 start_i:  39365 end_i:  47238 jobs:  7873
+time per core:  0.29085588455200195 start_i:  31492 end_i:  39365 jobs:  7873
+time per core:  0.29517698287963867 start_i:  7873 end_i:  15746 jobs:  7873
+time per core:  0.30159592628479004 start_i:  70857 end_i:  78730 jobs:  7873
+time per core:  0.2928779125213623 start_i:  110222 end_i:  118095 jobs:  7873
+time per core:  0.3101925849914551 start_i:  15746 end_i:  23619 jobs:  7873
+time per core:  0.31116604804992676 start_i:  47238 end_i:  55111 jobs:  7873
+time per core:  0.3122110366821289 start_i:  78730 end_i:  86603 jobs:  7873
+time per core:  0.31634998321533203 start_i:  23619 end_i:  31492 jobs:  7873
+time per core:  0.3191559314727783 start_i:  0 end_i:  7873 jobs:  7873
+time per core:  0.28898024559020996 start_i:  118095 end_i:  125970 jobs:  7875
+time per core:  0.3051619529724121 start_i:  102349 end_i:  110222 jobs:  7873
+--------------------------
+1st_method: generate
+n:             20
+k:             8
+combinations:  125970
+num_cores:     16
+total time:    0.3389132022857666
+--------------------------
+
+time per core:  0.87882399559021 start_i:  178052 end_i:  203490 jobs:  25438
+time per core:  0.8944506645202637 start_i:  152616 end_i:  178052 jobs:  25436
+time per core:  0.8995554447174072 start_i:  101744 end_i:  127180 jobs:  25436
+time per core:  0.9179849624633789 start_i:  50872 end_i:  76308 jobs:  25436
+time per core:  0.9286289215087891 start_i:  127180 end_i:  152616 jobs:  25436
+time per core:  0.9333598613739014 start_i:  76308 end_i:  101744 jobs:  25436
+time per core:  0.9428365230560303 start_i:  25436 end_i:  50872 jobs:  25436
+time per core:  0.9640243053436279 start_i:  0 end_i:  25436 jobs:  25436
+--------------------------
+1st_method: generate
+n:             21
+k:             8
+combinations:  203490
+num_cores:     8
+total time:    0.9732937812805176
+--------------------------
+
+time per core:  0.44286608695983887 start_i:  190770 end_i:  203490 jobs:  12720
+time per core:  0.45676755905151367 start_i:  114462 end_i:  127180 jobs:  12718
+time per core:  0.45746946334838867 start_i:  165334 end_i:  178052 jobs:  12718
+time per core:  0.4592607021331787 start_i:  178052 end_i:  190770 jobs:  12718
+time per core:  0.46259546279907227 start_i:  152616 end_i:  165334 jobs:  12718
+time per core:  0.46357035636901855 start_i:  101744 end_i:  114462 jobs:  12718
+time per core:  0.4660499095916748 start_i:  63590 end_i:  76308 jobs:  12718
+time per core:  0.4704320430755615 start_i:  89026 end_i:  101744 jobs:  12718
+time per core:  0.47168993949890137 start_i:  139898 end_i:  152616 jobs:  12718
+time per core:  0.4727449417114258 start_i:  50872 end_i:  63590 jobs:  12718
+time per core:  0.4774460792541504 start_i:  38154 end_i:  50872 jobs:  12718
+time per core:  0.47901344299316406 start_i:  127180 end_i:  139898 jobs:  12718
+time per core:  0.48042917251586914 start_i:  76308 end_i:  89026 jobs:  12718
+time per core:  0.4827537536621094 start_i:  25436 end_i:  38154 jobs:  12718
+time per core:  0.48517298698425293 start_i:  12718 end_i:  25436 jobs:  12718
+time per core:  0.49281764030456543 start_i:  0 end_i:  12718 jobs:  12718
+
+--------------------------
+1st_method: generate
+n:             21
+k:             8
+combinations:  203490
+num_cores:     16
+total time:    0.5127682685852051
+--------------------------
+time per core:  1.4267983436584473 start_i:  279797 end_i:  319770 jobs:  39973
+time per core:  1.4490678310394287 start_i:  239826 end_i:  279797 jobs:  39971
+time per core:  1.4787158966064453 start_i:  159884 end_i:  199855 jobs:  39971
+time per core:  1.5092370510101318 start_i:  199855 end_i:  239826 jobs:  39971
+time per core:  1.514082670211792 start_i:  79942 end_i:  119913 jobs:  39971
+time per core:  1.5195832252502441 start_i:  119913 end_i:  159884 jobs:  39971
+time per core:  1.5217161178588867 start_i:  39971 end_i:  79942 jobs:  39971
+time per core:  1.5680058002471924 start_i:  0 end_i:  39971 jobs:  39971
+
+--------------------------
+1st_method: generate
+n:             22
+k:             8
+combinations:  319770
+num_cores:     8
+total time:    1.5777623653411865
+--------------------------
+time per core:  0.7193379402160645 start_i:  299775 end_i:  319770 jobs:  19995
+time per core:  0.7392926216125488 start_i:  259805 end_i:  279790 jobs:  19985
+time per core:  0.7459187507629395 start_i:  279790 end_i:  299775 jobs:  19985
+time per core:  0.7494659423828125 start_i:  179865 end_i:  199850 jobs:  19985
+time per core:  0.7543926239013672 start_i:  239820 end_i:  259805 jobs:  19985
+time per core:  0.7567133903503418 start_i:  99925 end_i:  119910 jobs:  19985
+time per core:  0.7602407932281494 start_i:  159880 end_i:  179865 jobs:  19985
+time per core:  0.7648069858551025 start_i:  219835 end_i:  239820 jobs:  19985
+time per core:  0.7703368663787842 start_i:  59955 end_i:  79940 jobs:  19985
+time per core:  0.7708287239074707 start_i:  199850 end_i:  219835 jobs:  19985
+time per core:  0.7753996849060059 start_i:  119910 end_i:  139895 jobs:  19985
+time per core:  0.7761058807373047 start_i:  79940 end_i:  99925 jobs:  19985
+time per core:  0.7778511047363281 start_i:  139895 end_i:  159880 jobs:  19985
+time per core:  0.7829792499542236 start_i:  39970 end_i:  59955 jobs:  19985
+time per core:  0.8018515110015869 start_i:  19985 end_i:  39970 jobs:  19985
+time per core:  0.804924488067627 start_i:  0 end_i:  19985 jobs:  19985
+
+--------------------------
+1st_method: generate
+n:             22
+k:             8
+combinations:  319770
+num_cores:     16
+total time:    0.8233749866485596
+--------------------------
+time per core:  2.2639565467834473 start_i:  429023 end_i:  490314 jobs:  61291
+time per core:  2.311636209487915 start_i:  245156 end_i:  306445 jobs:  61289
+time per core:  2.326232433319092 start_i:  367734 end_i:  429023 jobs:  61289
+time per core:  2.3600032329559326 start_i:  183867 end_i:  245156 jobs:  61289
+time per core:  2.3621840476989746 start_i:  306445 end_i:  367734 jobs:  61289
+time per core:  2.411421537399292 start_i:  61289 end_i:  122578 jobs:  61289
+time per core:  2.414041757583618 start_i:  122578 end_i:  183867 jobs:  61289
+time per core:  2.4950032234191895 start_i:  0 end_i:  61289 jobs:  61289
+
+--------------------------
+1st_method: generate
+n:             23
+k:             8
+combinations:  490314
+num_cores:     8
+total time:    2.5059726238250732
+--------------------------
+time per core:  1.1340935230255127 start_i:  459660 end_i:  490314 jobs:  30654
+time per core:  1.1824638843536377 start_i:  398372 end_i:  429016 jobs:  30644
+time per core:  1.184051513671875 start_i:  275796 end_i:  306440 jobs:  30644
+time per core:  1.1856391429901123 start_i:  367728 end_i:  398372 jobs:  30644
+time per core:  1.1864969730377197 start_i:  429016 end_i:  459660 jobs:  30644
+time per core:  1.194469928741455 start_i:  245152 end_i:  275796 jobs:  30644
+time per core:  1.2015221118927002 start_i:  306440 end_i:  337084 jobs:  30644
+time per core:  1.2117736339569092 start_i:  183864 end_i:  214508 jobs:  30644
+time per core:  1.2117502689361572 start_i:  337084 end_i:  367728 jobs:  30644
+time per core:  1.2206039428710938 start_i:  153220 end_i:  183864 jobs:  30644
+time per core:  1.2220079898834229 start_i:  214508 end_i:  245152 jobs:  30644
+time per core:  1.233841896057129 start_i:  91932 end_i:  122576 jobs:  30644
+time per core:  1.2400436401367188 start_i:  122576 end_i:  153220 jobs:  30644
+time per core:  1.2409539222717285 start_i:  61288 end_i:  91932 jobs:  30644
+time per core:  1.265151023864746 start_i:  30644 end_i:  61288 jobs:  30644
+time per core:  1.298633337020874 start_i:  0 end_i:  30644 jobs:  30644
+
+--------------------------
+1st_method: generate
+n:             23
+k:             8
+combinations:  490314
+num_cores:     16
+total time:    1.3210387229919434
+--------------------------
+time per core:  3.498298406600952 start_i:  643531 end_i:  735471 jobs:  91940
+time per core:  3.5911214351654053 start_i:  551598 end_i:  643531 jobs:  91933
+time per core:  3.618769407272339 start_i:  367732 end_i:  459665 jobs:  91933
+time per core:  3.6321523189544678 start_i:  459665 end_i:  551598 jobs:  91933
+time per core:  3.653656005859375 start_i:  275799 end_i:  367732 jobs:  91933
+time per core:  3.6847116947174072 start_i:  183866 end_i:  275799 jobs:  91933
+time per core:  3.7307240962982178 start_i:  91933 end_i:  183866 jobs:  91933
+time per core:  3.8594157695770264 start_i:  0 end_i:  91933 jobs:  91933
+
+--------------------------
+1st_method: generate
+n:             24
+k:             8
+combinations:  735471
+num_cores:     8
+total time:    3.8764853477478027
+--------------------------
+time per core:  1.7754135131835938 start_i:  689490 end_i:  735471 jobs:  45981
+time per core:  1.854459524154663 start_i:  459660 end_i:  505626 jobs:  45966
+time per core:  1.8560702800750732 start_i:  413694 end_i:  459660 jobs:  45966
+time per core:  1.8657491207122803 start_i:  275796 end_i:  321762 jobs:  45966
+time per core:  1.8662242889404297 start_i:  643524 end_i:  689490 jobs:  45966
+time per core:  1.8759994506835938 start_i:  597558 end_i:  643524 jobs:  45966
+time per core:  1.8802478313446045 start_i:  551592 end_i:  597558 jobs:  45966
+time per core:  1.8867881298065186 start_i:  367728 end_i:  413694 jobs:  45966
+time per core:  1.8912227153778076 start_i:  229830 end_i:  275796 jobs:  45966
+time per core:  1.9098443984985352 start_i:  505626 end_i:  551592 jobs:  45966
+time per core:  1.9352073669433594 start_i:  183864 end_i:  229830 jobs:  45966
+time per core:  1.9375712871551514 start_i:  137898 end_i:  183864 jobs:  45966
+time per core:  1.940056562423706 start_i:  321762 end_i:  367728 jobs:  45966
+time per core:  1.940551996231079 start_i:  91932 end_i:  137898 jobs:  45966
+time per core:  1.9566676616668701 start_i:  45966 end_i:  91932 jobs:  45966
+time per core:  1.999854564666748 start_i:  0 end_i:  45966 jobs:  45966
+
+--------------------------
+1st_method: generate
+n:             24
+k:             8
+combinations:  735471
+num_cores:     16
+total time:    2.0296382904052734
+--------------------------
+time per core:  5.290054082870483 start_i:  946372 end_i:  1081575 jobs:  135203
+time per core:  5.477787733078003 start_i:  811176 end_i:  946372 jobs:  135196
+time per core:  5.484284162521362 start_i:  675980 end_i:  811176 jobs:  135196
+time per core:  5.50749397277832 start_i:  540784 end_i:  675980 jobs:  135196
+time per core:  5.544805526733398 start_i:  405588 end_i:  540784 jobs:  135196
+time per core:  5.5801756381988525 start_i:  270392 end_i:  405588 jobs:  135196
+time per core:  5.678063869476318 start_i:  135196 end_i:  270392 jobs:  135196
+time per core:  5.813739538192749 start_i:  0 end_i:  135196 jobs:  135196
+
+--------------------------
+1st_method: generate
+n:             25
+k:             8
+combinations:  1081575
+num_cores:     8
+total time:    5.829026699066162
+--------------------------
+time per core:  2.6622474193573 start_i:  1013970 end_i:  1081575 jobs:  67605
+time per core:  2.7700088024139404 start_i:  675980 end_i:  743578 jobs:  67598
+time per core:  2.786130428314209 start_i:  878774 end_i:  946372 jobs:  67598
+time per core:  2.7936716079711914 start_i:  946372 end_i:  1013970 jobs:  67598
+time per core:  2.8022449016571045 start_i:  608382 end_i:  675980 jobs:  67598
+time per core:  2.808181047439575 start_i:  811176 end_i:  878774 jobs:  67598
+time per core:  2.8089067935943604 start_i:  405588 end_i:  473186 jobs:  67598
+time per core:  2.8459153175354004 start_i:  540784 end_i:  608382 jobs:  67598
+time per core:  2.864772081375122 start_i:  473186 end_i:  540784 jobs:  67598
+time per core:  2.871741771697998 start_i:  743578 end_i:  811176 jobs:  67598
+time per core:  2.882382869720459 start_i:  270392 end_i:  337990 jobs:  67598
+time per core:  2.8946890830993652 start_i:  337990 end_i:  405588 jobs:  67598
+time per core:  2.918334484100342 start_i:  202794 end_i:  270392 jobs:  67598
+time per core:  2.9524505138397217 start_i:  135196 end_i:  202794 jobs:  67598
+time per core:  2.9946441650390625 start_i:  67598 end_i:  135196 jobs:  67598
+time per core:  3.0451512336730957 start_i:  0 end_i:  67598 jobs:  67598
+
+--------------------------
+1st_method: generate
+n:             25
+k:             8
+combinations:  1081575
+num_cores:     16
+total time:    3.0765864849090576
+--------------------------
+time per core:  7.954261064529419 start_i:  1366988 end_i:  1562275 jobs:  195287
+time per core:  8.12237024307251 start_i:  1171704 end_i:  1366988 jobs:  195284
+time per core:  8.183229684829712 start_i:  781136 end_i:  976420 jobs:  195284
+time per core:  8.227481365203857 start_i:  976420 end_i:  1171704 jobs:  195284
+time per core:  8.278870344161987 start_i:  585852 end_i:  781136 jobs:  195284
+time per core:  8.425466537475586 start_i:  390568 end_i:  585852 jobs:  195284
+time per core:  8.48439359664917 start_i:  195284 end_i:  390568 jobs:  195284
+time per core:  8.640311479568481 start_i:  0 end_i:  195284 jobs:  195284
+
+--------------------------
+1st_method: generate
+n:             26
+k:             8
+combinations:  1562275
+num_cores:     8
+total time:    8.660163879394531
+--------------------------
+time per core:  3.994995355606079 start_i:  1464630 end_i:  1562275 jobs:  97645
+time per core:  4.054654359817505 start_i:  1366988 end_i:  1464630 jobs:  97642
+time per core:  4.094062328338623 start_i:  976420 end_i:  1074062 jobs:  97642
+time per core:  4.111579418182373 start_i:  1269346 end_i:  1366988 jobs:  97642
+time per core:  4.124726057052612 start_i:  878778 end_i:  976420 jobs:  97642
+time per core:  4.167574405670166 start_i:  1171704 end_i:  1269346 jobs:  97642
+time per core:  4.2013702392578125 start_i:  585852 end_i:  683494 jobs:  97642
+time per core:  4.2193684577941895 start_i:  683494 end_i:  781136 jobs:  97642
+time per core:  4.241750240325928 start_i:  781136 end_i:  878778 jobs:  97642
+time per core:  4.289510488510132 start_i:  390568 end_i:  488210 jobs:  97642
+time per core:  4.305749177932739 start_i:  1074062 end_i:  1171704 jobs:  97642
+time per core:  4.34555196762085 start_i:  488210 end_i:  585852 jobs:  97642
+time per core:  4.357008934020996 start_i:  292926 end_i:  390568 jobs:  97642
+time per core:  4.391118764877319 start_i:  97642 end_i:  195284 jobs:  97642
+time per core:  4.408014297485352 start_i:  195284 end_i:  292926 jobs:  97642
+time per core:  4.541078805923462 start_i:  0 end_i:  97642 jobs:  97642
+
+--------------------------
+1st_method: generate
+n:             26
+k:             8
+combinations:  1562275
+num_cores:     16
+total time:    4.581631422042847
+--------------------------
+time per core:  11.702368021011353 start_i:  1942563 end_i:  2220075 jobs:  277512
+time per core:  11.917276382446289 start_i:  1665054 end_i:  1942563 jobs:  277509
+time per core:  11.993926525115967 start_i:  1387545 end_i:  1665054 jobs:  277509
+time per core:  12.128040075302124 start_i:  832527 end_i:  1110036 jobs:  277509
+time per core:  12.193592548370361 start_i:  1110036 end_i:  1387545 jobs:  277509
+time per core:  12.269756078720093 start_i:  555018 end_i:  832527 jobs:  277509
+time per core:  12.431748151779175 start_i:  277509 end_i:  555018 jobs:  277509
+time per core:  12.886465787887573 start_i:  0 end_i:  277509 jobs:  277509
+
+--------------------------
+1st_method: generate
+n:             27
+k:             8
+combinations:  2220075
+num_cores:     8
+total time:    12.90726900100708
+--------------------------
+time per core:  5.821472406387329 start_i:  2081310 end_i:  2220075 jobs:  138765
+time per core:  5.95360255241394 start_i:  1942556 end_i:  2081310 jobs:  138754
+time per core:  5.954924583435059 start_i:  1387540 end_i:  1526294 jobs:  138754
+time per core:  6.1114513874053955 start_i:  1803802 end_i:  1942556 jobs:  138754
+time per core:  6.113150358200073 start_i:  1665048 end_i:  1803802 jobs:  138754
+time per core:  6.131402015686035 start_i:  971278 end_i:  1110032 jobs:  138754
+time per core:  6.153615951538086 start_i:  832524 end_i:  971278 jobs:  138754
+time per core:  6.222015619277954 start_i:  1526294 end_i:  1665048 jobs:  138754
+time per core:  6.230442523956299 start_i:  555016 end_i:  693770 jobs:  138754
+time per core:  6.257151126861572 start_i:  693770 end_i:  832524 jobs:  138754
+time per core:  6.2888805866241455 start_i:  1110032 end_i:  1248786 jobs:  138754
+time per core:  6.289119482040405 start_i:  1248786 end_i:  1387540 jobs:  138754
+time per core:  6.38439154624939 start_i:  277508 end_i:  416262 jobs:  138754
+time per core:  6.38732647895813 start_i:  416262 end_i:  555016 jobs:  138754
+time per core:  6.418231725692749 start_i:  138754 end_i:  277508 jobs:  138754
+time per core:  6.599470138549805 start_i:  0 end_i:  138754 jobs:  138754
+
+--------------------------
+1st_method: generate
+n:             27
+k:             8
+combinations:  2220075
+num_cores:     16
+total time:    6.66286563873291
+--------------------------
+time per core:  16.43272376060486 start_i:  2719591 end_i:  3108105 jobs:  388514
+time per core:  16.94735312461853 start_i:  1942565 end_i:  2331078 jobs:  388513
+time per core:  17.091001510620117 start_i:  1165539 end_i:  1554052 jobs:  388513
+time per core:  17.09739089012146 start_i:  2331078 end_i:  2719591 jobs:  388513
+time per core:  17.362963914871216 start_i:  1554052 end_i:  1942565 jobs:  388513
+time per core:  17.615199089050293 start_i:  777026 end_i:  1165539 jobs:  388513
+time per core:  17.708356857299805 start_i:  388513 end_i:  777026 jobs:  388513
+time per core:  18.214661836624146 start_i:  0 end_i:  388513 jobs:  388513
+
+--------------------------
+1st_method: generate
+n:             28
+k:             8
+combinations:  3108105
+num_cores:     8
+total time:    18.238384008407593
+--------------------------
+time per core:  8.378754377365112 start_i:  2913840 end_i:  3108105 jobs:  194265
+time per core:  8.581603288650513 start_i:  2719584 end_i:  2913840 jobs:  194256
+time per core:  8.706957578659058 start_i:  1942560 end_i:  2136816 jobs:  194256
+time per core:  8.756517887115479 start_i:  1359792 end_i:  1554048 jobs:  194256
+time per core:  8.800652027130127 start_i:  2525328 end_i:  2719584 jobs:  194256
+time per core:  8.882774114608765 start_i:  1748304 end_i:  1942560 jobs:  194256
+time per core:  8.958853006362915 start_i:  2136816 end_i:  2331072 jobs:  194256
+time per core:  8.982185125350952 start_i:  971280 end_i:  1165536 jobs:  194256
+time per core:  8.985264301300049 start_i:  2331072 end_i:  2525328 jobs:  194256
+time per core:  8.999279737472534 start_i:  1165536 end_i:  1359792 jobs:  194256
+time per core:  9.015077590942383 start_i:  777024 end_i:  971280 jobs:  194256
+time per core:  9.046325206756592 start_i:  582768 end_i:  777024 jobs:  194256
+time per core:  9.105533123016357 start_i:  1554048 end_i:  1748304 jobs:  194256
+time per core:  9.144155025482178 start_i:  388512 end_i:  582768 jobs:  194256
+time per core:  9.268664836883545 start_i:  194256 end_i:  388512 jobs:  194256
+time per core:  9.490970373153687 start_i:  0 end_i:  194256 jobs:  194256
+
+--------------------------
+1st_method: generate
+n:             28
+k:             8
+combinations:  3108105
+num_cores:     16
+total time:    9.544206142425537
+--------------------------
+time per core:  23.426619052886963 start_i:  3755626 end_i:  4292145 jobs:  536519
+time per core:  24.10183596611023 start_i:  2682590 end_i:  3219108 jobs:  536518
+time per core:  24.20708680152893 start_i:  3219108 end_i:  3755626 jobs:  536518
+time per core:  24.54710078239441 start_i:  2146072 end_i:  2682590 jobs:  536518
+time per core:  24.601596355438232 start_i:  1609554 end_i:  2146072 jobs:  536518
+time per core:  24.9149227142334 start_i:  1073036 end_i:  1609554 jobs:  536518
+time per core:  25.110549211502075 start_i:  536518 end_i:  1073036 jobs:  536518
+time per core:  26.061223030090332 start_i:  0 end_i:  536518 jobs:  536518
+
+--------------------------
+1st_method: generate
+n:             29
+k:             8
+combinations:  4292145
+num_cores:     8
+total time:    26.089762449264526
+--------------------------
+time per core:  11.96690583229065 start_i:  4023885 end_i:  4292145 jobs:  268260
+time per core:  12.126442670822144 start_i:  3755626 end_i:  4023885 jobs:  268259
+time per core:  12.367340087890625 start_i:  3487367 end_i:  3755626 jobs:  268259
+time per core:  12.368469476699829 start_i:  1877813 end_i:  2146072 jobs:  268259
+time per core:  12.37925910949707 start_i:  2950849 end_i:  3219108 jobs:  268259
+time per core:  12.384278059005737 start_i:  2682590 end_i:  2950849 jobs:  268259
+time per core:  12.52391505241394 start_i:  2414331 end_i:  2682590 jobs:  268259
+time per core:  12.609135627746582 start_i:  1341295 end_i:  1609554 jobs:  268259
+time per core:  12.708625555038452 start_i:  804777 end_i:  1073036 jobs:  268259
+time per core:  12.72707748413086 start_i:  2146072 end_i:  2414331 jobs:  268259
+time per core:  12.732559204101562 start_i:  1609554 end_i:  1877813 jobs:  268259
+time per core:  12.861810445785522 start_i:  3219108 end_i:  3487367 jobs:  268259
+time per core:  12.938347101211548 start_i:  536518 end_i:  804777 jobs:  268259
+time per core:  13.024537563323975 start_i:  1073036 end_i:  1341295 jobs:  268259
+time per core:  13.092206478118896 start_i:  268259 end_i:  536518 jobs:  268259
+time per core:  13.410029172897339 start_i:  0 end_i:  268259 jobs:  268259
+
+--------------------------
+1st_method: generate
+n:             29
+k:             8
+combinations:  4292145
+num_cores:     16
+total time:    13.47269606590271
+--------------------------
+time per core:  32.64243817329407 start_i:  5121305 end_i:  5852925 jobs:  731620
+time per core:  33.470317125320435 start_i:  3658075 end_i:  4389690 jobs:  731615
+time per core:  33.87986993789673 start_i:  4389690 end_i:  5121305 jobs:  731615
+time per core:  34.18406009674072 start_i:  2926460 end_i:  3658075 jobs:  731615
+time per core:  34.36257338523865 start_i:  1463230 end_i:  2194845 jobs:  731615
+time per core:  34.449246406555176 start_i:  2194845 end_i:  2926460 jobs:  731615
+time per core:  35.09742856025696 start_i:  731615 end_i:  1463230 jobs:  731615
+time per core:  36.67508292198181 start_i:  0 end_i:  731615 jobs:  731615
+
+--------------------------
+1st_method: generate
+n:             30
+k:             8
+combinations:  5852925
+num_cores:     8
+total time:    36.70549249649048
+--------------------------
+time per core:  16.583305835723877 start_i:  5487105 end_i:  5852925 jobs:  365820
+time per core:  16.88092064857483 start_i:  5121298 end_i:  5487105 jobs:  365807
+time per core:  17.140390396118164 start_i:  4755491 end_i:  5121298 jobs:  365807
+time per core:  17.15333080291748 start_i:  3658070 end_i:  4023877 jobs:  365807
+time per core:  17.2897469997406 start_i:  4023877 end_i:  4389684 jobs:  365807
+time per core:  17.481290102005005 start_i:  1829035 end_i:  2194842 jobs:  365807
+time per core:  17.579615354537964 start_i:  2560649 end_i:  2926456 jobs:  365807
+time per core:  17.587350845336914 start_i:  4389684 end_i:  4755491 jobs:  365807
+time per core:  17.802420616149902 start_i:  3292263 end_i:  3658070 jobs:  365807
+time per core:  17.834690809249878 start_i:  2926456 end_i:  3292263 jobs:  365807
+time per core:  17.90523409843445 start_i:  1463228 end_i:  1829035 jobs:  365807
+time per core:  18.004001140594482 start_i:  2194842 end_i:  2560649 jobs:  365807
+time per core:  18.050612449645996 start_i:  1097421 end_i:  1463228 jobs:  365807
+time per core:  18.1521635055542 start_i:  731614 end_i:  1097421 jobs:  365807
+time per core:  18.22381567955017 start_i:  365807 end_i:  731614 jobs:  365807
+time per core:  18.790285110473633 start_i:  0 end_i:  365807 jobs:  365807
+
+--------------------------
+1st_method: generate
+n:             30
+k:             8
+combinations:  5852925
+num_cores:     16
+total time:    18.857459783554077
+--------------------------
+time per core:  44.80090403556824 start_i:  6902630 end_i:  7888725 jobs:  986095
+time per core:  46.154542446136475 start_i:  4930450 end_i:  5916540 jobs:  986090
+time per core:  47.12037420272827 start_i:  5916540 end_i:  6902630 jobs:  986090
+time per core:  47.147496700286865 start_i:  3944360 end_i:  4930450 jobs:  986090
+time per core:  47.18951058387756 start_i:  2958270 end_i:  3944360 jobs:  986090
+time per core:  47.60090255737305 start_i:  1972180 end_i:  2958270 jobs:  986090
+time per core:  48.53133749961853 start_i:  986090 end_i:  1972180 jobs:  986090
+time per core:  50.29199457168579 start_i:  0 end_i:  986090 jobs:  986090
+
+--------------------------
+1st_method: generate
+n:             31
+k:             8
+combinations:  7888725
+num_cores:     8
+total time:    50.332316398620605
+--------------------------
+time per core:  23.001718282699585 start_i:  7395675 end_i:  7888725 jobs:  493050
+time per core:  23.170374393463135 start_i:  6902630 end_i:  7395675 jobs:  493045
+time per core:  23.574666023254395 start_i:  5423495 end_i:  5916540 jobs:  493045
+time per core:  23.71124792098999 start_i:  6409585 end_i:  6902630 jobs:  493045
+time per core:  23.71552276611328 start_i:  4930450 end_i:  5423495 jobs:  493045
+time per core:  24.0940682888031 start_i:  3944360 end_i:  4437405 jobs:  493045
+time per core:  24.119828701019287 start_i:  3451315 end_i:  3944360 jobs:  493045
+time per core:  24.352006912231445 start_i:  2465225 end_i:  2958270 jobs:  493045
+time per core:  24.408356189727783 start_i:  4437405 end_i:  4930450 jobs:  493045
+time per core:  24.51646614074707 start_i:  2958270 end_i:  3451315 jobs:  493045
+time per core:  24.646296739578247 start_i:  1972180 end_i:  2465225 jobs:  493045
+time per core:  24.873817920684814 start_i:  5916540 end_i:  6409585 jobs:  493045
+time per core:  24.936840295791626 start_i:  1479135 end_i:  1972180 jobs:  493045
+time per core:  25.33683681488037 start_i:  986090 end_i:  1479135 jobs:  493045
+time per core:  25.848167419433594 start_i:  493045 end_i:  986090 jobs:  493045
+time per core:  26.062613248825073 start_i:  0 end_i:  493045 jobs:  493045
+
+--------------------------
+1st_method: generate
+n:             31
+k:             8
+combinations:  7888725
+num_cores:     16
+total time:    26.133488178253174
+--------------------------
+time per core:  62.28397488594055 start_i:  9203509 end_i:  10518300 jobs:  1314791
+time per core:  62.68334341049194 start_i:  6573935 end_i:  7888722 jobs:  1314787
+time per core:  64.67072868347168 start_i:  5259148 end_i:  6573935 jobs:  1314787
+time per core:  64.97171640396118 start_i:  3944361 end_i:  5259148 jobs:  1314787
+time per core:  65.10390758514404 start_i:  7888722 end_i:  9203509 jobs:  1314787
+time per core:  65.23917412757874 start_i:  2629574 end_i:  3944361 jobs:  1314787
+time per core:  66.34059119224548 start_i:  1314787 end_i:  2629574 jobs:  1314787
+time per core:  69.2452073097229 start_i:  0 end_i:  1314787 jobs:  1314787
+
+--------------------------
+1st_method: generate
+n:             32
+k:             8
+combinations:  10518300
+num_cores:     8
+total time:    69.28951168060303
+--------------------------
+time per core:  31.730003595352173 start_i:  9203502 end_i:  9860895 jobs:  657393
+time per core:  31.801543474197388 start_i:  9860895 end_i:  10518300 jobs:  657405
+time per core:  32.1241614818573 start_i:  7231323 end_i:  7888716 jobs:  657393
+time per core:  32.430896520614624 start_i:  5259144 end_i:  5916537 jobs:  657393
+time per core:  32.62902069091797 start_i:  8546109 end_i:  9203502 jobs:  657393
+time per core:  32.693395137786865 start_i:  6573930 end_i:  7231323 jobs:  657393
+time per core:  33.02459478378296 start_i:  4601751 end_i:  5259144 jobs:  657393
+time per core:  33.25711393356323 start_i:  3286965 end_i:  3944358 jobs:  657393
+time per core:  33.34089922904968 start_i:  3944358 end_i:  4601751 jobs:  657393
+time per core:  33.6288104057312 start_i:  5916537 end_i:  6573930 jobs:  657393
+time per core:  33.722490310668945 start_i:  7888716 end_i:  8546109 jobs:  657393
+time per core:  33.851040840148926 start_i:  2629572 end_i:  3286965 jobs:  657393
+time per core:  34.02334451675415 start_i:  1972179 end_i:  2629572 jobs:  657393
+time per core:  34.14868760108948 start_i:  1314786 end_i:  1972179 jobs:  657393
+time per core:  34.62829303741455 start_i:  657393 end_i:  1314786 jobs:  657393
+time per core:  35.76130533218384 start_i:  0 end_i:  657393 jobs:  657393
+
+--------------------------
+1st_method: generate
+n:             32
+k:             8
+combinations:  10518300
+num_cores:     16
+total time:    35.84733605384827
+--------------------------
+time per core:  82.85215163230896 start_i:  12148633 end_i:  13884156 jobs:  1735523
+time per core:  84.924001455307 start_i:  8677595 end_i:  10413114 jobs:  1735519
+time per core:  86.525465965271 start_i:  10413114 end_i:  12148633 jobs:  1735519
+time per core:  86.68841910362244 start_i:  6942076 end_i:  8677595 jobs:  1735519
+time per core:  87.36025094985962 start_i:  5206557 end_i:  6942076 jobs:  1735519
+time per core:  88.20197629928589 start_i:  3471038 end_i:  5206557 jobs:  1735519
+time per core:  89.84112453460693 start_i:  1735519 end_i:  3471038 jobs:  1735519
+time per core:  94.43301200866699 start_i:  0 end_i:  1735519 jobs:  1735519
+
+--------------------------
+1st_method: generate
+n:             33
+k:             8
+combinations:  13884156
+num_cores:     8
+total time:    94.48437905311584
+--------------------------
+time per core:  42.482200384140015 start_i:  13016385 end_i:  13884156 jobs:  867771
+time per core:  43.003976583480835 start_i:  9545349 end_i:  10413108 jobs:  867759
+time per core:  43.25649929046631 start_i:  12148626 end_i:  13016385 jobs:  867759
+time per core:  43.9887056350708 start_i:  11280867 end_i:  12148626 jobs:  867759
+time per core:  44.335413217544556 start_i:  8677590 end_i:  9545349 jobs:  867759
+time per core:  44.463823318481445 start_i:  6942072 end_i:  7809831 jobs:  867759
+time per core:  44.75073957443237 start_i:  5206554 end_i:  6074313 jobs:  867759
+time per core:  44.93951344490051 start_i:  3471036 end_i:  4338795 jobs:  867759
+time per core:  45.2268853187561 start_i:  10413108 end_i:  11280867 jobs:  867759
+time per core:  45.33644485473633 start_i:  7809831 end_i:  8677590 jobs:  867759
+time per core:  45.695491313934326 start_i:  4338795 end_i:  5206554 jobs:  867759
+time per core:  45.87752437591553 start_i:  6074313 end_i:  6942072 jobs:  867759
+time per core:  45.92704105377197 start_i:  2603277 end_i:  3471036 jobs:  867759
+time per core:  46.2995400428772 start_i:  1735518 end_i:  2603277 jobs:  867759
+time per core:  46.97407937049866 start_i:  867759 end_i:  1735518 jobs:  867759
+time per core:  48.74855947494507 start_i:  0 end_i:  867759 jobs:  867759
+
+--------------------------
+1st_method: generate
+n:             33
+k:             8
+combinations:  13884156
+num_cores:     16
+total time:    48.848604917526245
+--------------------------
+time per core:  111.48661541938782 start_i:  15886675 end_i:  18156204 jobs:  2269529
+time per core:  113.92195391654968 start_i:  11347625 end_i:  13617150 jobs:  2269525
+time per core:  115.30481100082397 start_i:  13617150 end_i:  15886675 jobs:  2269525
+time per core:  115.70818734169006 start_i:  9078100 end_i:  11347625 jobs:  2269525
+time per core:  116.89953804016113 start_i:  6808575 end_i:  9078100 jobs:  2269525
+time per core:  119.01870059967041 start_i:  4539050 end_i:  6808575 jobs:  2269525
+time per core:  120.60734581947327 start_i:  2269525 end_i:  4539050 jobs:  2269525
+time per core:  125.31181764602661 start_i:  0 end_i:  2269525 jobs:  2269525
+
+--------------------------
+1st_method: generate
+n:             34
+k:             8
+combinations:  18156204
+num_cores:     8
+total time:    125.37909030914307
+--------------------------
+time per core:  56.35998344421387 start_i:  17021430 end_i:  18156204 jobs:  1134774
+time per core:  57.72415804862976 start_i:  12482382 end_i:  13617144 jobs:  1134762
+time per core:  57.96207785606384 start_i:  15886668 end_i:  17021430 jobs:  1134762
+time per core:  58.811580419540405 start_i:  11347620 end_i:  12482382 jobs:  1134762
+time per core:  58.87506985664368 start_i:  14751906 end_i:  15886668 jobs:  1134762
+time per core:  59.36634802818298 start_i:  6808572 end_i:  7943334 jobs:  1134762
+time per core:  59.38649296760559 start_i:  9078096 end_i:  10212858 jobs:  1134762
+time per core:  60.07619595527649 start_i:  10212858 end_i:  11347620 jobs:  1134762
+time per core:  60.16273212432861 start_i:  13617144 end_i:  14751906 jobs:  1134762
+time per core:  61.11267304420471 start_i:  4539048 end_i:  5673810 jobs:  1134762
+time per core:  61.189045906066895 start_i:  3404286 end_i:  4539048 jobs:  1134762
+time per core:  61.27327084541321 start_i:  5673810 end_i:  6808572 jobs:  1134762
+time per core:  61.67647457122803 start_i:  7943334 end_i:  9078096 jobs:  1134762
+time per core:  62.222355365753174 start_i:  2269524 end_i:  3404286 jobs:  1134762
+time per core:  63.154561042785645 start_i:  1134762 end_i:  2269524 jobs:  1134762
+time per core:  64.33707404136658 start_i:  0 end_i:  1134762 jobs:  1134762
+
+--------------------------
+1st_method: generate
+n:             34
+k:             8
+combinations:  18156204
+num_cores:     16
+total time:    64.44781184196472
+--------------------------
+time per core:  148.43724918365479 start_i:  20593839 end_i:  23535820 jobs:  2941981
+time per core:  154.95078253746033 start_i:  11767908 end_i:  14709885 jobs:  2941977
+time per core:  155.2471628189087 start_i:  17651862 end_i:  20593839 jobs:  2941977
+time per core:  155.74319767951965 start_i:  14709885 end_i:  17651862 jobs:  2941977
+time per core:  158.4581995010376 start_i:  8825931 end_i:  11767908 jobs:  2941977
+time per core:  159.47955513000488 start_i:  5883954 end_i:  8825931 jobs:  2941977
+time per core:  161.3953287601471 start_i:  2941977 end_i:  5883954 jobs:  2941977
+time per core:  168.00157141685486 start_i:  0 end_i:  2941977 jobs:  2941977
+
+--------------------------
+1st_method: generate
+n:             35
+k:             8
+combinations:  23535820
+num_cores:     8
+total time:    168.05761218070984
+--------------------------
+time per core:  76.3879942893982 start_i:  22064820 end_i:  23535820 jobs:  1471000
+time per core:  77.1265139579773 start_i:  20593832 end_i:  22064820 jobs:  1470988
+time per core:  77.5935320854187 start_i:  16180868 end_i:  17651856 jobs:  1470988
+time per core:  78.5762243270874 start_i:  19122844 end_i:  20593832 jobs:  1470988
+time per core:  79.12148928642273 start_i:  11767904 end_i:  13238892 jobs:  1470988
+time per core:  79.22761583328247 start_i:  14709880 end_i:  16180868 jobs:  1470988
+time per core:  79.55983448028564 start_i:  8825928 end_i:  10296916 jobs:  1470988
+time per core:  79.82850122451782 start_i:  17651856 end_i:  19122844 jobs:  1470988
+time per core:  80.68983626365662 start_i:  13238892 end_i:  14709880 jobs:  1470988
+time per core:  80.97895288467407 start_i:  10296916 end_i:  11767904 jobs:  1470988
+time per core:  81.94013953208923 start_i:  5883952 end_i:  7354940 jobs:  1470988
+time per core:  81.96870636940002 start_i:  4412964 end_i:  5883952 jobs:  1470988
+time per core:  82.292484998703 start_i:  7354940 end_i:  8825928 jobs:  1470988
+time per core:  83.14429473876953 start_i:  2941976 end_i:  4412964 jobs:  1470988
+time per core:  84.2364981174469 start_i:  1470988 end_i:  2941976 jobs:  1470988
+time per core:  86.02211666107178 start_i:  0 end_i:  1470988 jobs:  1470988
+
+--------------------------
+1st_method: generate
+n:             35
+k:             8
+combinations:  23535820
+num_cores:     16
+total time:    86.16661334037781
+--------------------------
+time per core:  194.85536575317383 start_i:  26477794 end_i:  30260340 jobs:  3782546
+time per core:  204.97654151916504 start_i:  18912710 end_i:  22695252 jobs:  3782542
+time per core:  205.66169667243958 start_i:  15130168 end_i:  18912710 jobs:  3782542
+time per core:  206.47687697410583 start_i:  22695252 end_i:  26477794 jobs:  3782542
+time per core:  207.20733666419983 start_i:  11347626 end_i:  15130168 jobs:  3782542
+time per core:  211.3041477203369 start_i:  7565084 end_i:  11347626 jobs:  3782542
+time per core:  213.06255507469177 start_i:  3782542 end_i:  7565084 jobs:  3782542
+time per core:  224.19643211364746 start_i:  0 end_i:  3782542 jobs:  3782542
+
+--------------------------
+1st_method: generate
+n:             36
+k:             8
+combinations:  30260340
+num_cores:     8
+total time:    224.26423978805542
+--------------------------
+time per core:  163.78444409370422 start_i:  26477794 end_i:  28369065 jobs:  1891271
+time per core:  165.95090174674988 start_i:  5673813 end_i:  7565084 jobs:  1891271
+time per core:  166.41334080696106 start_i:  28369065 end_i:  30260340 jobs:  1891275
+time per core:  166.80037379264832 start_i:  3782542 end_i:  5673813 jobs:  1891271
+time per core:  166.80781531333923 start_i:  20803981 end_i:  22695252 jobs:  1891271
+time per core:  167.1738679409027 start_i:  18912710 end_i:  20803981 jobs:  1891271
+time per core:  169.4776303768158 start_i:  22695252 end_i:  24586523 jobs:  1891271
+time per core:  170.23934888839722 start_i:  9456355 end_i:  11347626 jobs:  1891271
+time per core:  170.74389719963074 start_i:  15130168 end_i:  17021439 jobs:  1891271
+time per core:  170.94711351394653 start_i:  17021439 end_i:  18912710 jobs:  1891271
+time per core:  171.9561128616333 start_i:  13238897 end_i:  15130168 jobs:  1891271
+time per core:  173.95828199386597 start_i:  11347626 end_i:  13238897 jobs:  1891271
+time per core:  175.1186239719391 start_i:  7565084 end_i:  9456355 jobs:  1891271
+time per core:  176.78999590873718 start_i:  24586523 end_i:  26477794 jobs:  1891271
+time per core:  177.22361731529236 start_i:  1891271 end_i:  3782542 jobs:  1891271
+time per core:  178.45545411109924 start_i:  0 end_i:  1891271 jobs:  1891271
+
+--------------------------
+1st_method: generate
+n:             36
+k:             8
+combinations:  30260340
+num_cores:     16
+total time:    178.59977293014526
+--------------------------
+------------------------------
+DONE!

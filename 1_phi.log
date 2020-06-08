@@ -1,0 +1,33 @@
+---------------------
+All tests are passed!
+--------------------------
+1st_method: generate
+n:             36
+k:             8
+combinations:  30260340
+total time:    41.43668746948242
+--------------------------
+1st_method: search
+n:             36
+k:             8
+combinations:  30260340
+average time:  21.72061326806326
+--------------------------
+1st_method: generate
+n:             45
+k:             9
+combinations:  886163135
+total time:    1213.9112894535065
+--------------------------
+1st_method: search
+n:             45
+k:             9
+combinations:  886163135
+average time:  642.1902442211688
+--------------------------
+1st_method: generate
+n:             55
+k:             10
+combinations:  29248649430
+total time:    39856.31098365784
+

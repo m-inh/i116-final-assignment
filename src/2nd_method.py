@@ -112,8 +112,6 @@ def generate_combination(n, k, index):
   """
   combination = list(range(k))
 
-  # nck = calculate_nck(n, k)
-
   # m can be uniquely represented by a sum of binomials:
   #   (c_1 k) + (c_2 k-1) + ... + (c_k 1)
   # where 0 <= c_i < n.

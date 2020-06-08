@@ -1,0 +1,79 @@
+---------------------
+All tests are passed!
+time per core:  62.78321409225464 start_i:  27234306 end_i:  28242984 jobs:  1008678
+time per core:  63.01981258392334 start_i:  17147526 end_i:  18156204 jobs:  1008678
+time per core:  63.8186240196228 start_i:  28242984 end_i:  29251662 jobs:  1008678
+time per core:  64.5120177268982 start_i:  15130170 end_i:  16138848 jobs:  1008678
+time per core:  65.46566319465637 start_i:  29251662 end_i:  30260340 jobs:  1008678
+time per core:  65.50863838195801 start_i:  19164882 end_i:  20173560 jobs:  1008678
+time per core:  65.81248068809509 start_i:  26225628 end_i:  27234306 jobs:  1008678
+time per core:  65.90262246131897 start_i:  22190916 end_i:  23199594 jobs:  1008678
+time per core:  66.63490676879883 start_i:  25216950 end_i:  26225628 jobs:  1008678
+time per core:  66.80161237716675 start_i:  21182238 end_i:  22190916 jobs:  1008678
+time per core:  66.96450996398926 start_i:  20173560 end_i:  21182238 jobs:  1008678
+time per core:  66.96053552627563 start_i:  23199594 end_i:  24208272 jobs:  1008678
+time per core:  67.25361013412476 start_i:  24208272 end_i:  25216950 jobs:  1008678
+time per core:  68.80965209007263 start_i:  16138848 end_i:  17147526 jobs:  1008678
+time per core:  69.89750981330872 start_i:  18156204 end_i:  19164882 jobs:  1008678
+time per core:  71.23918414115906 start_i:  10086780 end_i:  11095458 jobs:  1008678
+time per core:  71.91342449188232 start_i:  12104136 end_i:  13112814 jobs:  1008678
+time per core:  72.25089740753174 start_i:  14121492 end_i:  15130170 jobs:  1008678
+time per core:  73.61242485046387 start_i:  9078102 end_i:  10086780 jobs:  1008678
+time per core:  73.73945999145508 start_i:  11095458 end_i:  12104136 jobs:  1008678
+time per core:  74.10014343261719 start_i:  13112814 end_i:  14121492 jobs:  1008678
+time per core:  74.11410069465637 start_i:  6052068 end_i:  7060746 jobs:  1008678
+time per core:  75.37116265296936 start_i:  3026034 end_i:  4034712 jobs:  1008678
+time per core:  77.02582263946533 start_i:  7060746 end_i:  8069424 jobs:  1008678
+time per core:  78.68699049949646 start_i:  8069424 end_i:  9078102 jobs:  1008678
+time per core:  79.0638370513916 start_i:  2017356 end_i:  3026034 jobs:  1008678
+time per core:  79.28903579711914 start_i:  4034712 end_i:  5043390 jobs:  1008678
+time per core:  80.2683174610138 start_i:  5043390 end_i:  6052068 jobs:  1008678
+time per core:  81.17080402374268 start_i:  1008678 end_i:  2017356 jobs:  1008678
+time per core:  81.18681907653809 start_i:  0 end_i:  1008678 jobs:  1008678
+--------------------------
+1st_method: generate
+n:             36
+k:             8
+combinations:  30260340
+num_cores:     30
+total time:    81.25672554969788
+--------------------------
+
+time per core:  2475.3676388263702 start_i:  679391733 end_i:  708930504 jobs:  29538771
+time per core:  2491.5797498226166 start_i:  827085588 end_i:  856624359 jobs:  29538771
+time per core:  2508.4383850097656 start_i:  856624359 end_i:  886163135 jobs:  29538776
+time per core:  2510.45432138443 start_i:  797546817 end_i:  827085588 jobs:  29538771
+time per core:  2522.208182811737 start_i:  531697878 end_i:  561236649 jobs:  29538771
+time per core:  2538.728535890579 start_i:  768008046 end_i:  797546817 jobs:  29538771
+time per core:  2539.355177640915 start_i:  649852962 end_i:  679391733 jobs:  29538771
+time per core:  2558.8919541835785 start_i:  620314191 end_i:  649852962 jobs:  29538771
+time per core:  2575.600419998169 start_i:  502159107 end_i:  531697878 jobs:  29538771
+time per core:  2583.5700936317444 start_i:  738469275 end_i:  768008046 jobs:  29538771
+time per core:  2598.577875137329 start_i:  590775420 end_i:  620314191 jobs:  29538771
+time per core:  2612.656154870987 start_i:  413542794 end_i:  443081565 jobs:  29538771
+time per core:  2625.897762775421 start_i:  472620336 end_i:  502159107 jobs:  29538771
+time per core:  2637.167361974716 start_i:  443081565 end_i:  472620336 jobs:  29538771
+time per core:  2638.366963148117 start_i:  324926481 end_i:  354465252 jobs:  29538771
+time per core:  2648.975826740265 start_i:  708930504 end_i:  738469275 jobs:  29538771
+time per core:  2651.1229236125946 start_i:  384004023 end_i:  413542794 jobs:  29538771
+time per core:  2660.0135428905487 start_i:  561236649 end_i:  590775420 jobs:  29538771
+time per core:  2702.8949851989746 start_i:  354465252 end_i:  384004023 jobs:  29538771
+time per core:  2719.997070789337 start_i:  295387710 end_i:  324926481 jobs:  29538771
+time per core:  2735.8343966007233 start_i:  177232626 end_i:  206771397 jobs:  29538771
+time per core:  2748.2420768737793 start_i:  265848939 end_i:  295387710 jobs:  29538771
+time per core:  2806.643177986145 start_i:  147693855 end_i:  177232626 jobs:  29538771
+time per core:  2811.2818517684937 start_i:  59077542 end_i:  88616313 jobs:  29538771
+time per core:  2817.230051755905 start_i:  236310168 end_i:  265848939 jobs:  29538771
+time per core:  2829.050558567047 start_i:  88616313 end_i:  118155084 jobs:  29538771
+time per core:  2831.9837033748627 start_i:  118155084 end_i:  147693855 jobs:  29538771
+time per core:  2836.0616495609283 start_i:  206771397 end_i:  236310168 jobs:  29538771
+time per core:  2881.522573709488 start_i:  29538771 end_i:  59077542 jobs:  29538771
+time per core:  2930.988594532013 start_i:  0 end_i:  29538771 jobs:  29538771
+--------------------------
+1st_method: generate
+n:             45
+k:             9
+combinations:  886163135
+num_cores:     30
+total time:    2931.023654937744
+--------------------------

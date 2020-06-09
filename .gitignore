@@ -1,5 +1,7 @@
 .DS_Store
-~$report.docx
+*report.docx
+slide.gslides
+i116-experiment.gsheet
 test.py
 ~WRL0003.tmp
 .vscode
